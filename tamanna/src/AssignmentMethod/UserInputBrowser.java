@@ -28,7 +28,7 @@ public static void main(String[] args) {
 		driver=new EdgeDriver();
 		System.out.println("Opening");
 		driver.manage().window().maximize();
-		driver.get("https://www.google.com");
+		driver.get("https://www.zomato.com");
 		break;
 	}
 	}

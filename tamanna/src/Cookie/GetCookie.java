@@ -13,8 +13,6 @@ public static void main(String[] args) {
 	Set<Cookie> allCookie = driver.manage().getCookies();
 	System.out.println(allCookie.size());
 	for(Cookie singleCooky:allCookie)
-		
-		
 		System.out.println(singleCooky.getName());
 }
 }

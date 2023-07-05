@@ -14,7 +14,7 @@ public class DeSelectByValue {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.get("file:///C:/Users/Aarati/Desktop/dropdown.html");
+		driver.get("file:///C:/Users/HP/Desktop/dropdown.html");
 		WebElement city = driver.findElement(By.id("city"));
 		Select select = new Select(city);
 		Thread.sleep(4000);
